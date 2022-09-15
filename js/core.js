@@ -7,6 +7,7 @@
     const close_tab_anim = document.querySelector('.nav_activee');
 
 
+
     burger.addEventListener('click', () => {
         setTimeout(() => idnavlittle1.classList.remove('serginltss'), 1);
         setTimeout(() => idnavlittle2.classList.remove('serginltss1'), 1);
@@ -26,6 +27,26 @@
         setTimeout(() => idnavlittle1.classList.remove('nav_activee'), 900);
         setTimeout(() => idnavlittle2.classList.remove('serginltss1'), 900);    
     });
+
+    frst_btn.addEventListener('click', () => {
+        burger.classList.toggle('burger_active');
+        setTimeout(() => idnavlittle1.classList.remove('nav_activee'), 110);
+        setTimeout(() => idnavlittle2.classList.remove('serginltss1'), 110);    
+    });
+
+    scnd_btn.addEventListener('click', () => {
+        burger.classList.toggle('burger_active');
+        setTimeout(() => idnavlittle1.classList.remove('nav_activee'), 110);
+        setTimeout(() => idnavlittle2.classList.remove('serginltss1'), 110);    
+    });
+
+
+    thrd_btn.addEventListener('click', () => {
+        burger.classList.toggle('burger_active');
+        setTimeout(() => idnavlittle1.classList.remove('nav_activee'), 110);
+        setTimeout(() => idnavlittle2.classList.remove('serginltss1'), 110);    
+    });
+
 
 
 }());
